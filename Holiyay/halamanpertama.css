@@ -7,23 +7,26 @@ body {
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size : 100%;
+    background-attachment: fixed;
     margin:0;
     font-family: Mont;
+   
 }
-ul {
+ul.m {
     list-style-type: none;
     margin: 0;
     padding-top: 30px;
     padding-bottom: 30px;
     height: 50px;
     background-color: rgb(37, 42, 55);
+    
 }
 li {
     float: right;
   }
 li a {
     display: block;
-    color: white;
+    color: yellow;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -44,10 +47,10 @@ img {
  #b{
   text-align : justify;
   font-weight: bolder;
-  border-style: solid;
+  
   padding: 10px;
-  background-color: rgb(248, 247, 245);
-  color: black;
+  background-color: #0E3552;
+  color: white;
   width: 300px;
   height: 300px;
   float: left;
@@ -58,9 +61,9 @@ img {
 #c{
   text-align : justify;
   font-weight: bolder;
-  border-style: solid;
-  background-color: rgb(248, 247, 245);
-  color: black;
+  border-style: unset;
+  background-color: #0E3552;
+  color: white;
   width: 28%;
   height: 400px;
   float:left;
@@ -74,10 +77,9 @@ img {
  #d{
   text-align : justify;
   font-weight: bolder;
-  border-style: solid;
   padding: 10px;
-  background-color: rgb(248, 247, 245);
-  color: black;
+  background-color: #0E3552;
+  color: white;
   width: 300px;
   height: 300px;
   float: left;
@@ -89,8 +91,31 @@ img {
   width:100%;
 }
 #e{
-  width:100%;
+  width: 100%;
 }
 #y {
-  width: 100%
+  width: 100%;
 }
+#s {
+  margin-top: 500px;
+  border: 1px solid black;
+}
+#r {
+  width:300px;
+}
+#p {
+  width: 80%;
+  text-align: center;
+}
+#t{
+  border: 1px solid black;
+
+}
+#n {
+  width : 70px;
+}
+#k {
+  text-align: center;
+}
+
+

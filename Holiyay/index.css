@@ -65,4 +65,6 @@ li a {
         left: 10px;
         top:0px;
   }
-
+  #qq:hover {
+    color : red;
+  }
